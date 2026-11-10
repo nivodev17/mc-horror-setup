@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Horror Minecraft Setup</title>
+<meta name="description" content="Five steps to join the horror Minecraft world.">
+<style>
+  :root {
+    --bg: #0b0d0e;
+    --panel: #14181a;
+    --line: #262d30;
+    --text: #d9dedc;
+    --dim: #8c9794;
+    --blood: #c2362b;
+    --blood-hi: #e04a3d;
+    --fog: #9fb3ad;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background:
+      radial-gradient(1200px 500px at 50% -120px, #1d2628 0%, transparent 70%),
+      var(--bg);
+    color: var(--text);
+    font: 17px/1.6 "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 56px 16px 80px; }
+  header { text-align: center; margin-bottom: 40px; }
+  .eyebrow {
+    font: 600 12px/1 ui-monospace, Consolas, monospace;
+    letter-spacing: .28em; text-transform: uppercase; color: var(--blood-hi);
+  }
+  h1 {
+    font: 700 clamp(34px, 8vw, 56px)/1.05 Georgia, "Times New Roman", serif;
+    letter-spacing: -.01em; margin: 14px 0 12px; text-wrap: balance;
+  }
+  header p { color: var(--dim); margin: 0 auto; max-width: 52ch; }
+  .need {
+    margin: 28px 0 36px; padding: 14px 18px;
+    border: 1px solid var(--line); border-left: 3px solid var(--fog);
+    background: var(--panel); border-radius: 6px; font-size: 15.5px;
+  }
+  ol.steps { list-style: none; counter-reset: step; padding: 0; margin: 0; }
+  ol.steps > li {
+    counter-increment: step; position: relative;
+    background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+    padding: 22px 22px 22px 76px; margin-bottom: 14px;
+  }
+  ol.steps > li::before {
+    content: counter(step);
+    position: absolute; left: 22px; top: 20px;
+    width: 38px; height: 38px; border-radius: 50%;
+    display: grid; place-items: center;
+    font: 700 18px/1 Georgia, serif; color: #fff; background: var(--blood);
+  }
+  h2 { font-size: 20px; margin: 4px 0 6px; }
+  li p { margin: 6px 0; }
+  li p.note { color: var(--dim); font-size: 15px; }
+  a { color: var(--blood-hi); }
+  a:hover { color: #ff7a6e; }
+  .btn {
+    display: inline-block; margin: 10px 0 4px; padding: 11px 20px;
+    background: var(--blood); color: #fff; font-weight: 600;
+    text-decoration: none; border-radius: 6px;
+  }
+  .btn:hover { background: var(--blood-hi); color: #fff; }
+  .btn:focus-visible, a:focus-visible, summary:focus-visible { outline: 2px solid var(--fog); outline-offset: 3px; }
+  kbd, code {
+    font: 14px/1 ui-monospace, Consolas, monospace;
+    background: #0d1011; border: 1px solid var(--line); border-radius: 4px; padding: 2px 6px;
+    overflow-wrap: anywhere;
+  }
+  h3 { font-size: 13px; letter-spacing: .2em; text-transform: uppercase; color: var(--dim); margin: 44px 0 12px; }
+  details {
+    border: 1px solid var(--line); border-radius: 8px; background: var(--panel);
+    padding: 0 18px; margin-bottom: 10px;
+  }
+  summary { cursor: pointer; padding: 14px 0; font-weight: 600; }
+  details[open] { padding-bottom: 14px; }
+  details ul, details ol { padding-left: 20px; margin: 6px 0; }
+  details li { margin: 5px 0; }
+  footer { margin-top: 48px; text-align: center; color: var(--dim); font-size: 14px; }
+  @media (max-width: 480px) {
+    ol.steps > li { padding: 68px 18px 20px; }
+    ol.steps > li::before { left: 18px; top: 18px; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="eyebrow">Minecraft Java 1.20.1</div>
+    <h1>Something is in the fog.</h1>
+    <p>Five steps and you're in the world. Takes about ten minutes, most of it waiting for downloads.</p>
+  </header>
+
+  <div class="need">
+    <strong>You need:</strong> a Windows PC and <strong>Minecraft: Java Edition</strong> on your Microsoft account.
+    Bedrock (the Windows Store version) won't work for this.
+  </div>
+
+  <ol class="steps">
+    <li>
+      <h2>Get the Modrinth App</h2>
+      <p>It's a free launcher that installs mods for you.</p>
+      <a class="btn" href="https://modrinth.com/app" target="_blank" rel="noopener">Download Modrinth App</a>
+      <p class="note">Install it, open it, and sign in with the Microsoft account you play Minecraft on.</p>
+    </li>
+    <li>
+      <h2>Download the horror pack</h2>
+      <p>One small file that tells the app exactly which mods to get, so we match.</p>
+      <a class="btn" href="horror-pack.mrpack" download>Download horror-pack.mrpack</a>
+    </li>
+    <li>
+      <h2>Add the pack to the app</h2>
+      <p>Double-click <code>horror-pack.mrpack</code> in your Downloads folder.</p>
+      <p class="note">If nothing happens: in the Modrinth App click the <kbd>+</kbd> button, choose <strong>From file</strong>, and pick the file. Then wait until it finishes installing.</p>
+    </li>
+    <li>
+      <h2>Press Play</h2>
+      <p>Open <strong>Horror Pack</strong> in the app and hit <strong>Play</strong>.</p>
+      <p class="note">The first launch is slow, a few minutes is normal. Wait for the Minecraft main menu.</p>
+    </li>
+    <li>
+      <h2>Join the world</h2>
+      <p>Your friend will send you an address that ends in <code>.e4mc.link</code>.</p>
+      <p>In Minecraft: <strong>Multiplayer</strong> → <strong>Direct Connection</strong> → paste the address → <strong>Join Server</strong>.</p>
+      <p class="note">The address changes every time the world is opened, so ask for a new one each session.</p>
+    </li>
+  </ol>
+
+  <h3>If something goes wrong</h3>
+  <details>
+    <summary>It says I can't join / mods don't match</summary>
+    <p>Delete the Horror Pack in the Modrinth App and do steps 2 and 3 again. Don't add or update mods inside the pack, both players need exactly the same ones.</p>
+  </details>
+  <details>
+    <summary>The game crashes or is very laggy</summary>
+    <p>In the Modrinth App open the pack, click the gear icon, go to <strong>Java and memory</strong>, and set memory to <strong>4096 MB</strong>.</p>
+  </details>
+  <details>
+    <summary>Connection timed out</summary>
+    <p>The world has to be open on your friend's PC right now. Ask them to re-open it to LAN and send the new address.</p>
+  </details>
+
+  <h3>Extra</h3>
+  <details>
+    <summary>What's in the pack</summary>
+    <p>Minecraft 1.20.1 with Forge 47.4.28 and these mods:</p>
+    <ul>
+      <li><a href="https://modrinth.com/mod/the-man-from-the-fog" target="_blank" rel="noopener">The Man From The Fog</a> 1.4 — he watches, then he hunts</li>
+      <li><a href="https://modrinth.com/mod/the-knocker" target="_blank" rel="noopener">The Knocker</a> 1.5.2 — don't answer the door</li>
+      <li><a href="https://modrinth.com/mod/cave-dweller-evolved" target="_blank" rel="noopener">Cave Dweller Evolved</a> 1.7.0 — something lives in the caves</li>
+      <li><a href="https://modrinth.com/mod/sound-physics-remastered" target="_blank" rel="noopener">Sound Physics Remastered</a> 1.5.1 — echoes and muffled sounds</li>
+      <li><a href="https://modrinth.com/mod/e4mc" target="_blank" rel="noopener">e4mc</a> 6.2.3 — lets us play together without a server</li>
+      <li><a href="https://modrinth.com/mod/geckolib" target="_blank" rel="noopener">GeckoLib</a> 4.8.4 — needed by the monster mods</li>
+    </ul>
+  </details>
+  <details>
+    <summary>Manual install without the Modrinth App</summary>
+    <ol>
+      <li>Install <a href="https://adoptium.net/temurin/releases/?version=17" target="_blank" rel="noopener">Java 17</a> if you don't have Java.</li>
+      <li>Download the <a href="https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html" target="_blank" rel="noopener">Forge 1.20.1 installer</a> (version 47.4.28), run it, and choose <strong>Install client</strong>.</li>
+      <li>Download the six mods from the list above. Pick the file for <strong>1.20.1</strong> and <strong>Forge</strong> with the version number shown.</li>
+      <li>Press <kbd>Win</kbd> + <kbd>R</kbd>, type <code>%appdata%\.minecraft\mods</code>, and put the six files in that folder (create it if it's missing).</li>
+      <li>Open the Minecraft Launcher, pick the <strong>forge</strong> profile, and press Play.</li>
+    </ol>
+  </details>
+  <details>
+    <summary>For the host: how to open the world</summary>
+    <ol>
+      <li>Open the Minecraft Launcher, pick the <strong>Horror 1.20.1</strong> profile, press Play.</li>
+      <li>Create or open a singleplayer world.</li>
+      <li>Press <kbd>Esc</kbd> → <strong>Open to LAN</strong> → <strong>Start LAN World</strong>.</li>
+      <li>An address ending in <code>.e4mc.link</code> appears in chat. Click it to copy and send it to your friend.</li>
+    </ol>
+  </details>
+
+  <footer>Play at night. Headphones on.</footer>
+</main>
+</body>
+</html>
