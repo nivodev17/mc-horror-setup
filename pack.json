@@ -1,0 +1,199 @@
+{
+    "formatVersion":  1,
+    "game":  "minecraft",
+    "versionId":  "2.0.0",
+    "name":  "Horror Pack",
+    "summary":  "Horror mods for two-player Minecraft 1.20.1",
+    "files":  [
+                  {
+                      "path":  "mods/The-Man-From-The-Fog-1.4-1.20.1.jar",
+                      "hashes":  {
+                                     "sha1":  "a6f5b667e10bc5ac24230b541f1f356dae1a42b1",
+                                     "sha512":  "d9d4f8f91ea935b7e1f9c3412aeb86c97a814b334da01f70ca08155928f74201899aaacf6c655cf6c8102c1be996397587c762920c8fcb10e7d12b92ba874a4f"
+                                 },
+                      "env":  {
+                                  "client":  "required",
+                                  "server":  "required"
+                              },
+                      "downloads":  [
+                                        "https://cdn.modrinth.com/data/hIZHlLOF/versions/iAoDHcJv/The-Man-From-The-Fog-1.4-1.20.1.jar"
+                                    ],
+                      "fileSize":  3769386
+                  },
+                  {
+                      "path":  "mods/the_knocker-1.5.2-forge-1.20.1.jar",
+                      "hashes":  {
+                                     "sha1":  "a4689f41093be3a5c86b5731c1bcde98f4d25aed",
+                                     "sha512":  "11d48b3258977e0c76bd5a98af0ec4c95b9cee3405c029f4e895c62f4499ff3f9a2710848035794ea275d8790e021955d0329e866955d9c15588098ade05cca6"
+                                 },
+                      "env":  {
+                                  "client":  "required",
+                                  "server":  "required"
+                              },
+                      "downloads":  [
+                                        "https://cdn.modrinth.com/data/hTju2zcV/versions/WDUdi6LI/the_knocker-1.5.2-forge-1.20.1.jar"
+                                    ],
+                      "fileSize":  1621054
+                  },
+                  {
+                      "path":  "mods/cave_dweller-1.20.1-1.7.0.jar",
+                      "hashes":  {
+                                     "sha1":  "36ed8ff10064938323d0707e2689b30a247573cd",
+                                     "sha512":  "78e98458d7c0c85ee696faa2934689916d1712094151e4b37e2c05e98eaaf413aac05316bf060373462d84965264c35b5abaf9a2fb9370705e4912ea17063d30"
+                                 },
+                      "env":  {
+                                  "client":  "required",
+                                  "server":  "required"
+                              },
+                      "downloads":  [
+                                        "https://cdn.modrinth.com/data/70pj2OCh/versions/wt6Qw64V/cave_dweller-1.20.1-1.7.0.jar"
+                                    ],
+                      "fileSize":  626860
+                  },
+                  {
+                      "path":  "mods/TheOneWhoWatches-V1.4.4-1.20.1.jar",
+                      "hashes":  {
+                                     "sha1":  "02529521620a87824a447b7377c36c0a1905c70a",
+                                     "sha512":  "bf9ded44493e5b4930171712e8c57d70a526e1dbc47e833f825fa8460c5bc55b295c9cb41cf0223ad9b585eace1e20f0776bb75b48dae96dec110aa5bd23a6b0"
+                                 },
+                      "env":  {
+                                  "client":  "required",
+                                  "server":  "required"
+                              },
+                      "downloads":  [
+                                        "https://cdn.modrinth.com/data/guhQmZQI/versions/fPlpUQxU/TheOneWhoWatches-V1.4.4-1.20.1.jar"
+                                    ],
+                      "fileSize":  5493144
+                  },
+                  {
+                      "path":  "mods/the_midnight_lurker_3.3.7.jar",
+                      "hashes":  {
+                                     "sha1":  "8f12b5ce64c9d33f62cc066b7476db51b4bfafa2",
+                                     "sha512":  "9a6e5b24da1c447ac0920edbcf67194881fc316cfe26810147d6464682b6c2814bda57a8a6033ebbdb71bd1639f16a6c1386a72747df0d28e2668a1fd5aa31f5"
+                                 },
+                      "env":  {
+                                  "client":  "required",
+                                  "server":  "required"
+                              },
+                      "downloads":  [
+                                        "https://cdn.modrinth.com/data/obLxUQbm/versions/wBu7Y4MV/the_midnight_lurker_3.3.7.jar"
+                                    ],
+                      "fileSize":  19812085
+                  },
+                  {
+                      "path":  "mods/geckolib-forge-1.20.1-4.8.4.jar",
+                      "hashes":  {
+                                     "sha1":  "50e1407869ef0e909e3bdda9328b8bd7db03fdc0",
+                                     "sha512":  "443a321a293e3cb92fbbc3c97a38b179a45d1db703cd7bdb123270a9e04e7b7d67d5b06cd8e77a6d4d9139e033e901b9660cccf53ad5f9beaae6d06eae68febf"
+                                 },
+                      "env":  {
+                                  "client":  "required",
+                                  "server":  "required"
+                              },
+                      "downloads":  [
+                                        "https://cdn.modrinth.com/data/8BmcQJ2H/versions/aC5KMoNg/geckolib-forge-1.20.1-4.8.4.jar"
+                                    ],
+                      "fileSize":  1038209
+                  },
+                  {
+                      "path":  "mods/e4mc-forge-6.2.3.jar",
+                      "hashes":  {
+                                     "sha1":  "64beea3eefd083e7b2b90e8c295cdd2071a40e84",
+                                     "sha512":  "fef5b5a489a26410d51aa8ffa07b7e24b164797c91a33565603cfc16b61f68d7dae071c147c3aa3260108543a35b812f2c636e79b56e5b1339e72950a874c621"
+                                 },
+                      "env":  {
+                                  "client":  "required",
+                                  "server":  "required"
+                              },
+                      "downloads":  [
+                                        "https://cdn.modrinth.com/data/qANg5Jrr/versions/VYizGDdc/e4mc-forge-6.2.3.jar"
+                                    ],
+                      "fileSize":  1300020
+                  },
+                  {
+                      "path":  "mods/sound-physics-remastered-forge-1.20.1-1.5.1.jar",
+                      "hashes":  {
+                                     "sha1":  "944b4673bcab118f411d050b2cd6b693262bb664",
+                                     "sha512":  "5509a7b51ec1d57aae2af0a0200bda474539fcfe28303f3ff0158ba95b8e7a88ae023d8a9bd97d4626a6a8ce809506e19cdcb05b76e8be5bf8a0450c5d6a46b1"
+                                 },
+                      "env":  {
+                                  "client":  "required",
+                                  "server":  "required"
+                              },
+                      "downloads":  [
+                                        "https://cdn.modrinth.com/data/qyVF9oeo/versions/x0sJ9PeR/sound-physics-remastered-forge-1.20.1-1.5.1.jar"
+                                    ],
+                      "fileSize":  206984
+                  },
+                  {
+                      "path":  "mods/embeddium-0.3.31+mc1.20.1.jar",
+                      "hashes":  {
+                                     "sha1":  "bb2fa8f3e493af16af9160d049f96c614a1faf2f",
+                                     "sha512":  "ffbf2da4685260a4d5c14c621708bd20722563f084f042d3dfb0a7b87f048e39299648c854a93939129da0d23a15a91ec628560d601e76074b08e275f6e132e9"
+                                 },
+                      "env":  {
+                                  "client":  "required",
+                                  "server":  "required"
+                              },
+                      "downloads":  [
+                                        "https://cdn.modrinth.com/data/sk9rgfiA/versions/UTbfe5d1/embeddium-0.3.31%2Bmc1.20.1.jar"
+                                    ],
+                      "fileSize":  1320675
+                  },
+                  {
+                      "path":  "mods/oculus-mc1.20.1-1.8.0.jar",
+                      "hashes":  {
+                                     "sha1":  "984f774e71790deaec674c7587bd24e0711871b2",
+                                     "sha512":  "1bb4ac77400d6684347988ed298a692c2cb15cf7923693607eb8739b171a20fef7412259e9e157111d9ce21779badab386029956f7d2283a9e611722a373e9d5"
+                                 },
+                      "env":  {
+                                  "client":  "required",
+                                  "server":  "required"
+                              },
+                      "downloads":  [
+                                        "https://cdn.modrinth.com/data/GchcoXML/versions/iQ1SwGc3/oculus-mc1.20.1-1.8.0.jar"
+                                    ],
+                      "fileSize":  2851119
+                  },
+                  {
+                      "path":  "mods/entityculling-forge-1.11.3-mc1.20.1.jar",
+                      "hashes":  {
+                                     "sha1":  "d3c513e88ef9f5cdd7e27d17d923d4dca69c6d55",
+                                     "sha512":  "be5be53897ae7403a202e4b0b094701bcc4ecdb94afcf2ea144cd07d9a4553a1fc6a88917732a72c477d01c33583162cffb9c4a19d259089deb018878eec1da8"
+                                 },
+                      "env":  {
+                                  "client":  "required",
+                                  "server":  "required"
+                              },
+                      "downloads":  [
+                                        "https://cdn.modrinth.com/data/NNAgCjsB/versions/HUUJcFnt/entityculling-forge-1.11.3-mc1.20.1.jar"
+                                    ],
+                      "fileSize":  1515076
+                  },
+                  {
+                      "path":  "shaderpacks/MakeUp-UltraFast-9.6.zip",
+                      "hashes":  {
+                                     "sha1":  "e2a930f1ffb7ca6a56cf466c13c9e36193425a38",
+                                     "sha512":  "fa7af14ac14bd77bc1c5d8abf5243e9f3dae08777272790de62b9f388db2f5383f8b00c61da358a356a43635afb7cab80ea7196ffd3a97e22d3184b76e9f3fd3"
+                                 },
+                      "env":  {
+                                  "client":  "required",
+                                  "server":  "required"
+                              },
+                      "downloads":  [
+                                        "https://cdn.modrinth.com/data/izsIPI7a/versions/t4YRxQug/MakeUp-UltraFast-9.6.zip"
+                                    ],
+                      "fileSize":  406830
+                  }
+              ],
+    "dependencies":  {
+                         "minecraft":  "1.20.1",
+                         "forge":  "47.4.28"
+                     },
+    "configs":  [
+                    {
+                        "path":  "config/oculus.properties",
+                        "text":  "enableShaders=true\nshaderPack=MakeUp-UltraFast-9.6.zip\n"
+                    }
+                ]
+}
