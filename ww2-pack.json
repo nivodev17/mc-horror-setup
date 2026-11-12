@@ -1,7 +1,7 @@
 {
     "formatVersion":  1,
     "game":  "minecraft",
-    "versionId":  "2.1.1",
+    "versionId":  "2.1.2",
     "name":  "Zombie Wasteland",
     "summary":  "Zombie wasteland pack for Minecraft 1.20.1",
     "files":  [
@@ -334,21 +334,6 @@
                                         "https://cdn.modrinth.com/data/sk9knFPE/versions/uNALdylI/rhino-forge-2001.2.3-build.10.jar"
                                     ],
                       "fileSize":  1798244
-                  },
-                  {
-                      "path":  "shaderpacks/ComplementaryUnbound_r5.9.3.zip",
-                      "hashes":  {
-                                     "sha1":  "2ee08300e1d6f039e63eae8484dddf57b3aaaf67",
-                                     "sha512":  "a085d1d8cda67cd17a2b414eeba48bbd809da069f269bab46246235ec8fe714a275013c70d0504527b0987d810deddddba4564332414ab3b3bd7435932ff808c"
-                                 },
-                      "env":  {
-                                  "client":  "required",
-                                  "server":  "required"
-                              },
-                      "downloads":  [
-                                        "https://cdn.modrinth.com/data/R6NEzAwj/versions/B1kyfoUZ/ComplementaryUnbound_r5.9.3.zip"
-                                    ],
-                      "fileSize":  553400
                   }
               ],
     "dependencies":  {
@@ -358,12 +343,8 @@
     "configs":  [
                     {
                         "path":  "config/oculus.properties",
-                        "text":  "enableShaders=true\nshaderPack=ComplementaryUnbound_r5.9.3.zip\n",
+                        "text":  "enableShaders=true\nshaderPack=MakeUp-UltraFast-9.6.zip\n",
                         "force":  true
-                    },
-                    {
-                        "path":  "shaderpacks/ComplementaryUnbound_r5.9.3.zip.txt",
-                        "text":  "SHADOW_QUALITY=0\nshadowDistance=96.0\nWATER_REFLECT_QUALITY=2\nBLOCK_REFLECT_QUALITY=1\nLIGHTSHAFT_QUALI_DEFINE=0\nSSAO_QUALI_DEFINE=2\nFXAA_DEFINE=-1\nDETAIL_QUALITY=2\nCLOUD_QUALITY=2\nANISOTROPIC_FILTER=0\nCOLORED_LIGHTING=0\nWORLD_SPACE_REFLECTIONS=-1\nENTITY_SHADOW=-1\nRAIN_PUDDLES=0\n"
                     },
                     {
                         "path":  "options.txt",
