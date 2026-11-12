@@ -87,6 +87,16 @@ try {
 
   foreach ($c in $pack.configs) {
     $dest = Join-Path $gd ($c.path -replace '/', '\')
+    if ($c.merge -and (Test-Path $dest)) {
+      $lines = @(Get-Content $dest)
+      foreach ($l in ($c.text -split "`n")) {
+        if (-not $l) { continue }
+        $k = $l.Substring(0, $l.IndexOf(':') + 1)
+        $lines = @($lines | Where-Object { -not $_.StartsWith($k) }) + $l
+      }
+      [IO.File]::WriteAllLines($dest, $lines, (New-Object Text.UTF8Encoding($false)))
+      continue
+    }
     if ($c.force -or -not (Test-Path $dest)) {
       New-Item -ItemType Directory -Force (Split-Path $dest) | Out-Null
       [IO.File]::WriteAllText($dest, $c.text, (New-Object Text.UTF8Encoding($false)))
