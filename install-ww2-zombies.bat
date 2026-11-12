@@ -1,5 +1,5 @@
 @echo off
-title WW2 Zombies Installer
+title Zombie Wasteland Installer
 set "HP_SELF=%~f0"
 powershell -NoProfile -ExecutionPolicy Bypass -Command "iex (((Get-Content -LiteralPath $env:HP_SELF -Raw) -split '#PS_BEGIN#')[2])"
 echo.
@@ -43,8 +43,8 @@ function FindJava {
 }
 
 try {
-  Write-Host 'WW2 ZOMBIES INSTALLER' -ForegroundColor Red
-  Write-Host 'Sets up Minecraft 1.20.1 with Forge, the WW2 zombies mods and a light shader.'
+  Write-Host 'ZOMBIE WASTELAND INSTALLER' -ForegroundColor Red
+  Write-Host 'Sets up Minecraft 1.20.1 with Forge, the zombie wasteland mods and a light shader.'
   Write-Host 'Your other Minecraft versions and worlds are not touched.'
 
   if (-not (Test-Path (Join-Path $mc 'launcher_profiles.json'))) {
@@ -87,7 +87,7 @@ try {
 
   foreach ($c in $pack.configs) {
     $dest = Join-Path $gd ($c.path -replace '/', '\')
-    if (-not (Test-Path $dest)) {
+    if ($c.force -or -not (Test-Path $dest)) {
       New-Item -ItemType Directory -Force (Split-Path $dest) | Out-Null
       [IO.File]::WriteAllText($dest, $c.text, (New-Object Text.UTF8Encoding($false)))
     }

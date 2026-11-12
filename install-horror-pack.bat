@@ -87,7 +87,7 @@ try {
 
   foreach ($c in $pack.configs) {
     $dest = Join-Path $gd ($c.path -replace '/', '\')
-    if (-not (Test-Path $dest)) {
+    if ($c.force -or -not (Test-Path $dest)) {
       New-Item -ItemType Directory -Force (Split-Path $dest) | Out-Null
       [IO.File]::WriteAllText($dest, $c.text, (New-Object Text.UTF8Encoding($false)))
     }

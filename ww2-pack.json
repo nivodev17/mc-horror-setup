@@ -1,24 +1,39 @@
 {
     "formatVersion":  1,
     "game":  "minecraft",
-    "versionId":  "1.0.0",
-    "name":  "WW2 Zombies",
-    "summary":  "WW2 zombies pack for Minecraft 1.20.1",
+    "versionId":  "2.0.0",
+    "name":  "Zombie Wasteland",
+    "summary":  "Zombie wasteland pack for Minecraft 1.20.1",
     "files":  [
                   {
-                      "path":  "mods/Call to Battle 1.20.1.jar",
+                      "path":  "mods/tacz-forge-1.20.1-1.2.0.jar",
                       "hashes":  {
-                                     "sha1":  "f398db34606e158313cbd5b3b5955d0869ea9d2a",
-                                     "sha512":  "3e931fd46485044eed82489d6d0fa43a5102ef1c4dc71d4d80a7731ce6955b2190c7fbc54810d2ea6fd8b782da9f5d13c2297743e7f46f57f0ec59dc2bf54dc4"
+                                     "sha1":  "0b91b2d09f724cdf412da93370cd57d311e78e67",
+                                     "sha512":  "7784dd103fbaa5d26a6130ae6a716a1909f93c126fd226193b21dec38f8c345b0044e9e392a1aa6737e468a346b7e95dc38a3e76f22ecaf37cef438ae57874c1"
                                  },
                       "env":  {
                                   "client":  "required",
                                   "server":  "required"
                               },
                       "downloads":  [
-                                        "https://cdn.modrinth.com/data/t14AfrFX/versions/FrX8KKq4/Call%20to%20Battle%201.20.1.jar"
+                                        "https://cdn.modrinth.com/data/SzzJttH8/versions/QGCbNkTy/tacz-forge-1.20.1-1.2.0.jar"
                                     ],
-                      "fileSize":  10867149
+                      "fileSize":  69001578
+                  },
+                  {
+                      "path":  "mods/car-forge-1.20.1-1.0.42.jar",
+                      "hashes":  {
+                                     "sha1":  "f9aecfb74bc6bc9ce8a7ff4d9b6118091bfb1ecc",
+                                     "sha512":  "4bb1939fcabc23c3139b0dc34997d587920aceab3640eaf368f7fd00721d69dcfb286578969078fffba498cf38b7d592196eb705d2bcc3953ddadb103993e169"
+                                 },
+                      "env":  {
+                                  "client":  "required",
+                                  "server":  "required"
+                              },
+                      "downloads":  [
+                                        "https://cdn.modrinth.com/data/DCPUF5Rv/versions/ImfnHW7F/car-forge-1.20.1-1.0.42.jar"
+                                    ],
+                      "fileSize":  2666112
                   },
                   {
                       "path":  "mods/immersive_aircraft-1.5.0+1.20.1-forge.jar",
@@ -34,21 +49,6 @@
                                         "https://cdn.modrinth.com/data/x3HZvrj6/versions/aDUlOdzA/immersive_aircraft-1.5.0%2B1.20.1-forge.jar"
                                     ],
                       "fileSize":  2441036
-                  },
-                  {
-                      "path":  "mods/weather2-1.20.1-2.8.3.jar",
-                      "hashes":  {
-                                     "sha1":  "4ec7a372945874dd734a20fa61574f08d2b6763a",
-                                     "sha512":  "240bd2eadfb47c6f8e201105e0d69f4ffe6957ec97d95200c01904edd6eca6b42cb61c67b58492a5fd0b0c306108519980f89c5382d168c5c71dbae95e72bb49"
-                                 },
-                      "env":  {
-                                  "client":  "required",
-                                  "server":  "required"
-                              },
-                      "downloads":  [
-                                        "https://cdn.modrinth.com/data/dv5SFk5T/versions/ZKVtwI5D/weather2-1.20.1-2.8.3.jar"
-                                    ],
-                      "fileSize":  6852245
                   },
                   {
                       "path":  "mods/lostcities-1.20-7.5.7.jar",
@@ -94,6 +94,51 @@
                                         "https://cdn.modrinth.com/data/mMTOWOaA/versions/vmo9rLxO/zombieawareness-1.20.1-1.13.1.jar"
                                     ],
                       "fileSize":  291139
+                  },
+                  {
+                      "path":  "mods/weather2-1.20.1-2.8.3.jar",
+                      "hashes":  {
+                                     "sha1":  "4ec7a372945874dd734a20fa61574f08d2b6763a",
+                                     "sha512":  "240bd2eadfb47c6f8e201105e0d69f4ffe6957ec97d95200c01904edd6eca6b42cb61c67b58492a5fd0b0c306108519980f89c5382d168c5c71dbae95e72bb49"
+                                 },
+                      "env":  {
+                                  "client":  "required",
+                                  "server":  "required"
+                              },
+                      "downloads":  [
+                                        "https://cdn.modrinth.com/data/dv5SFk5T/versions/ZKVtwI5D/weather2-1.20.1-2.8.3.jar"
+                                    ],
+                      "fileSize":  6852245
+                  },
+                  {
+                      "path":  "mods/kubejs-forge-2001.6.5-build.26.jar",
+                      "hashes":  {
+                                     "sha1":  "8b0cc9797d4ed00fd2d1002d58960af8b32012ae",
+                                     "sha512":  "71ef9e5eb5f3bead86b635b42ad305d075c6487e631217b281d938193dcdc5fe0ff6bae8c86dd4e069726223a66e8690c0610f736c5a62910f60fd80edd575c1"
+                                 },
+                      "env":  {
+                                  "client":  "required",
+                                  "server":  "required"
+                              },
+                      "downloads":  [
+                                        "https://cdn.modrinth.com/data/umyGl7zF/versions/hVR2xUSr/kubejs-forge-2001.6.5-build.26.jar"
+                                    ],
+                      "fileSize":  1658792
+                  },
+                  {
+                      "path":  "mods/lootjs-forge-1.20.1-2.13.1.jar",
+                      "hashes":  {
+                                     "sha1":  "804deb0bd34d69cad873170642b9d7e47fa0d6ad",
+                                     "sha512":  "c03a07caf451a272f8027a47bb951db73f19bb24d603b61f0328a1769568a98f3912ec6b7bf39218062add102cb8fa7b29ae4ca73731cfa2db09eaac8fcf1033"
+                                 },
+                      "env":  {
+                                  "client":  "required",
+                                  "server":  "required"
+                              },
+                      "downloads":  [
+                                        "https://cdn.modrinth.com/data/fJFETWDN/versions/wltVDhRB/lootjs-forge-1.20.1-2.13.1.jar"
+                                    ],
+                      "fileSize":  242267
                   },
                   {
                       "path":  "mods/xaerominimap-forge-1.20.1-26.6.0.jar",
@@ -216,19 +261,19 @@
                       "fileSize":  406830
                   },
                   {
-                      "path":  "mods/coroutil-forge-1.20.1-1.3.7.jar",
+                      "path":  "resourcepacks/WSZ-zombies.zip",
                       "hashes":  {
-                                     "sha1":  "7f5f0b62a638b6053c95919cbe8c2bea2e0c93d0",
-                                     "sha512":  "37a13eaa68579dd45204ebdfa43b2909123a2e5e875a2ca51da0d0882d4c524be1e95fce4bb26db21901b7d100ad9363968814e3566d44b5afce8fb8e8088057"
+                                     "sha1":  "c2dbec95ed18d59ee0d5122a2da3e7a400ea218e",
+                                     "sha512":  "d9b8ccee1f17dc85a92620d1cb90f22af98a5d2550a8c8d4d637848b3e9313129dab1924776723d86ffeb277b4cadf0dddccb87c38ecbf80da91e66a66aacf58"
                                  },
                       "env":  {
                                   "client":  "required",
                                   "server":  "required"
                               },
                       "downloads":  [
-                                        "https://cdn.modrinth.com/data/rLLJ1OZM/versions/6rPDKAT8/coroutil-forge-1.20.1-1.3.7.jar"
+                                        "https://cdn.modrinth.com/data/1R8KmJeg/versions/JIn3OmoB/%C2%A7c%20WSZ.zip"
                                     ],
-                      "fileSize":  64187
+                      "fileSize":  6560259
                   },
                   {
                       "path":  "mods/Atlas Lib-1.20.1-1.1.12.jar",
@@ -244,6 +289,51 @@
                                         "https://cdn.modrinth.com/data/G6VHtQr4/versions/PKJi0BrP/Atlas%20Lib-1.20.1-1.1.12.jar"
                                     ],
                       "fileSize":  124436
+                  },
+                  {
+                      "path":  "mods/coroutil-forge-1.20.1-1.3.7.jar",
+                      "hashes":  {
+                                     "sha1":  "7f5f0b62a638b6053c95919cbe8c2bea2e0c93d0",
+                                     "sha512":  "37a13eaa68579dd45204ebdfa43b2909123a2e5e875a2ca51da0d0882d4c524be1e95fce4bb26db21901b7d100ad9363968814e3566d44b5afce8fb8e8088057"
+                                 },
+                      "env":  {
+                                  "client":  "required",
+                                  "server":  "required"
+                              },
+                      "downloads":  [
+                                        "https://cdn.modrinth.com/data/rLLJ1OZM/versions/6rPDKAT8/coroutil-forge-1.20.1-1.3.7.jar"
+                                    ],
+                      "fileSize":  64187
+                  },
+                  {
+                      "path":  "mods/architectury-9.2.14-forge.jar",
+                      "hashes":  {
+                                     "sha1":  "a52918a500ff421180a1cbd1a0cabee712134ec4",
+                                     "sha512":  "cf67f2050cafa00f0bee42e6d7bef77fdb808ac4f71742f7b4d6d5c1e6ffb49561a5a252f332d2b78a9767bdb5faa284611790dba303fbdc736ae36d794f61c7"
+                                 },
+                      "env":  {
+                                  "client":  "required",
+                                  "server":  "required"
+                              },
+                      "downloads":  [
+                                        "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar"
+                                    ],
+                      "fileSize":  580602
+                  },
+                  {
+                      "path":  "mods/rhino-forge-2001.2.3-build.10.jar",
+                      "hashes":  {
+                                     "sha1":  "c83c9b719a6bab33fbd2b3f2f680eb3adbfc1aa1",
+                                     "sha512":  "4eb6a635f3eff3baa158539bd55344421cf69b15e28f7da8bf55f370a11c071f3525063a6f81b67fbfca550ad8aaab7e6208df87f65ca6ed2851edd46f032b58"
+                                 },
+                      "env":  {
+                                  "client":  "required",
+                                  "server":  "required"
+                              },
+                      "downloads":  [
+                                        "https://cdn.modrinth.com/data/sk9knFPE/versions/uNALdylI/rhino-forge-2001.2.3-build.10.jar"
+                                    ],
+                      "fileSize":  1798244
                   }
               ],
     "dependencies":  {
@@ -254,6 +344,20 @@
                     {
                         "path":  "config/oculus.properties",
                         "text":  "enableShaders=true\nshaderPack=MakeUp-UltraFast-9.6.zip\n"
+                    },
+                    {
+                        "path":  "options.txt",
+                        "text":  "resourcePacks:[\"vanilla\",\"mod_resources\",\"file/WSZ-zombies.zip\"]\n"
+                    },
+                    {
+                        "path":  "config/lostcities/common.toml",
+                        "text":  "[general]\n\tselectedProfile = \"onlycities\"\n\n[profiles]\n\tselectedProfile = \"onlycities\"\n",
+                        "force":  true
+                    },
+                    {
+                        "path":  "kubejs/server_scripts/wasteland.js",
+                        "text":  "// Zombie wasteland rules: starter kit, guns and car parts in loot, ammo from zombies.\n// Installed to kubejs/server_scripts/wasteland.js by the pack installer.\n\nfunction wlGun(id, mode, rounds, chambered) {\n  var nbt = \u0027{GunId:\"tacz:\u0027 + id + \u0027\",GunFireMode:\"\u0027 + mode + \u0027\",GunCurrentAmmoCount:\u0027 + rounds\n  if (chambered) nbt += \u0027,HasBulletInBarrel:1b\u0027\n  return Item.of(\u0027tacz:modern_kinetic_gun\u0027, nbt + \u0027}\u0027)\n}\n\nfunction wlAmmo(id, count) {\n  return Item.of(\u0027tacz:ammo\u0027, count, \u0027{AmmoId:\"tacz:\u0027 + id + \u0027\"}\u0027)\n}\n\nfunction wlPart(id) {\n  return Item.of(\u0027tacz:attachment\u0027, \u0027{AttachmentId:\"tacz:\u0027 + id + \u0027\"}\u0027)\n}\n\nPlayerEvents.loggedIn(function (event) {\n  var player = event.player\n  if (player.stages.has(\u0027wasteland_starter_kit\u0027)) return\n  player.stages.add(\u0027wasteland_starter_kit\u0027)\n\n  player.give(wlGun(\u0027glock_17\u0027, \u0027SEMI\u0027, 17, true))\n  player.give(wlAmmo(\u00279mm\u0027, 30))\n  player.give(wlAmmo(\u00279mm\u0027, 30))\n  player.give(wlGun(\u0027db_short\u0027, \u0027SEMI\u0027, 2, false))\n  player.give(wlAmmo(\u002712g\u0027, 16))\n  player.give(Item.of(\u0027minecraft:iron_axe\u0027))\n  player.give(Item.of(\u0027minecraft:bread\u0027, 12))\n  player.give(Item.of(\u0027minecraft:torch\u0027, 16))\n  player.give(Item.of(\u0027car:car_workshop\u0027, 1))\n  player.give(Item.of(\u0027car:car_workshop_outter\u0027, 8))\n  player.tell(\u0027You wake up in the ruins. Search buildings for guns, ammo and car parts.\u0027)\n})\n\nLootJS.modifiers(function (event) {\n  // Ammo: common in every chest\n  event.addLootTypeModifier(LootType.CHEST).randomChance(0.45).addWeightedLoot([1, 2], [\n    wlAmmo(\u00279mm\u0027, 20).withChance(30),\n    wlAmmo(\u002745acp\u0027, 14).withChance(18),\n    wlAmmo(\u002712g\u0027, 8).withChance(20),\n    wlAmmo(\u0027556x45\u0027, 20).withChance(14),\n    wlAmmo(\u0027762x39\u0027, 20).withChance(14),\n    wlAmmo(\u002730_06\u0027, 8).withChance(6),\n    wlAmmo(\u0027792x57\u0027, 8).withChance(5),\n    wlAmmo(\u002750ae\u0027, 7).withChance(4),\n    wlAmmo(\u002757x28\u0027, 25).withChance(3),\n    wlAmmo(\u0027762x54\u0027, 10).withChance(3),\n    wlAmmo(\u0027338\u0027, 5).withChance(2)\n  ])\n\n  // Common guns: pistols, shotguns, old rifles\n  event.addLootTypeModifier(LootType.CHEST).randomChance(0.10).addWeightedLoot([\n    wlGun(\u0027glock_17\u0027, \u0027SEMI\u0027, 17, true).withChance(22),\n    wlGun(\u0027m1911\u0027, \u0027SEMI\u0027, 7, true).withChance(20),\n    wlGun(\u0027db_short\u0027, \u0027SEMI\u0027, 2, false).withChance(16),\n    wlGun(\u0027m870\u0027, \u0027SEMI\u0027, 5, false).withChance(14),\n    wlGun(\u0027uzi\u0027, \u0027AUTO\u0027, 20, false).withChance(10),\n    wlGun(\u0027sks_tactical\u0027, \u0027SEMI\u0027, 10, true).withChance(10),\n    wlGun(\u0027kar98\u0027, \u0027SEMI\u0027, 4, false).withChance(8)\n  ])\n\n  // Rare guns: rifles and SMGs\n  event.addLootTypeModifier(LootType.CHEST).randomChance(0.035).addWeightedLoot([\n    wlGun(\u0027ak47\u0027, \u0027AUTO\u0027, 30, true).withChance(16),\n    wlGun(\u0027m4a1\u0027, \u0027AUTO\u0027, 30, true).withChance(14),\n    wlGun(\u0027m16a1\u0027, \u0027AUTO\u0027, 20, true).withChance(10),\n    wlGun(\u0027hk_mp5a5\u0027, \u0027AUTO\u0027, 30, true).withChance(12),\n    wlGun(\u0027ump45\u0027, \u0027AUTO\u0027, 25, true).withChance(10),\n    wlGun(\u0027scar_l\u0027, \u0027AUTO\u0027, 30, true).withChance(8),\n    wlGun(\u0027m1014\u0027, \u0027SEMI\u0027, 6, true).withChance(8),\n    wlGun(\u0027m700\u0027, \u0027SEMI\u0027, 5, false).withChance(8),\n    wlGun(\u0027deagle\u0027, \u0027SEMI\u0027, 7, true).withChance(6),\n    wlGun(\u0027vector45\u0027, \u0027AUTO\u0027, 20, true).withChance(4),\n    wlGun(\u0027p90\u0027, \u0027AUTO\u0027, 50, true).withChance(2),\n    wlGun(\u0027svd\u0027, \u0027SEMI\u0027, 10, true).withChance(2)\n  ])\n\n  // Jackpot guns\n  event.addLootTypeModifier(LootType.CHEST).randomChance(0.008).addWeightedLoot([\n    wlGun(\u0027ai_awp\u0027, \u0027SEMI\u0027, 5, false).withChance(5),\n    wlGun(\u0027m249\u0027, \u0027AUTO\u0027, 75, false).withChance(4),\n    wlGun(\u0027rpg7\u0027, \u0027SEMI\u0027, 1, false).withChance(1)\n  ])\n\n  // Attachments\n  event.addLootTypeModifier(LootType.CHEST).randomChance(0.06).addWeightedLoot([\n    wlPart(\u0027sight_t1\u0027).withChance(10),\n    wlPart(\u0027sight_exp3\u0027).withChance(8),\n    wlPart(\u0027scope_acog_ta31\u0027).withChance(6),\n    wlPart(\u0027scope_standard_8x\u0027).withChance(3),\n    wlPart(\u0027muzzle_silencer_phantom_s1\u0027).withChance(6),\n    wlPart(\u0027grip_vertical_talon\u0027).withChance(8),\n    wlPart(\u0027extended_mag_1\u0027).withChance(8),\n    wlPart(\u0027laser_compact\u0027).withChance(6)\n  ])\n\n  // Food and supplies\n  event.addLootTypeModifier(LootType.CHEST).randomChance(0.35).addWeightedLoot([1, 2], [\n    Item.of(\u0027minecraft:bread\u0027, 3).withChance(20),\n    Item.of(\u0027minecraft:cooked_beef\u0027, 2).withChance(12),\n    Item.of(\u0027minecraft:baked_potato\u0027, 3).withChance(12),\n    Item.of(\u0027minecraft:torch\u0027, 6).withChance(12),\n    Item.of(\u0027minecraft:iron_ingot\u0027, 3).withChance(10),\n    Item.of(\u0027minecraft:gunpowder\u0027, 4).withChance(8),\n    Item.of(\u0027minecraft:golden_apple\u0027).withChance(2)\n  ])\n\n  // Car parts and fuel\n  event.addLootTypeModifier(LootType.CHEST).randomChance(0.08).addWeightedLoot([\n    Item.of(\u0027car:wheel\u0027, 2).withChance(22),\n    Item.of(\u0027car:bio_diesel_bucket\u0027).withChance(16),\n    Item.of(\u0027car:canister\u0027).withChance(10),\n    Item.of(\u0027car:engine_3_cylinder\u0027).withChance(10),\n    Item.of(\u0027car:small_tank\u0027).withChance(8),\n    Item.of(\u0027car:battery\u0027).withChance(8),\n    Item.of(\u0027car:repair_kit\u0027).withChance(8),\n    Item.of(\u0027car:red_suv_body\u0027).withChance(5),\n    Item.of(\u0027car:white_transporter_body\u0027).withChance(5),\n    Item.of(\u0027car:black_sport_body\u0027).withChance(3),\n    Item.of(\u0027car:engine_6_cylinder\u0027).withChance(3)\n  ])\n\n  // Zombies sometimes carry ammo\n  event.addEntityLootModifier(\u0027minecraft:zombie\u0027).randomChance(0.12).addWeightedLoot([\n    wlAmmo(\u00279mm\u0027, 8).withChance(40),\n    wlAmmo(\u002712g\u0027, 4).withChance(25),\n    wlAmmo(\u002745acp\u0027, 6).withChance(20),\n    wlAmmo(\u0027556x45\u0027, 8).withChance(8),\n    wlAmmo(\u0027762x39\u0027, 8).withChance(7)\n  ])\n})\n",
+                        "force":  true
                     }
                 ]
 }
